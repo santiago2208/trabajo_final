@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lociones angelica</title>
+    <link rel="stylesheet" href="./css/clientes/style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/locion.png" alt="">
+        <p>lociones angel</p>
+    </header>
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./clientes.html" class="pagina">Clientes</a>
+        <a href="">Productos</a>
+        <a href="">Proveedores</a>
+    </nav>
+
+    <h2>Clientes</h2>
+
+    <main>
+
+        <section class="formulario">
+            <form id="formulario" method="post"  name="form" action="create.php">
+                <input type="text" placeholder="ID" name="id" >
+                <input type="text" placeholder="Nombre" name="nombre">
+                <input type="text" placeholder="Documento" name="documento"> <!-- direccion -->
+                <input type="text" placeholder="Correo" name="correo" >    <!-- telefono -->
+                <input type="text" placeholder="Direccion" name="direccion" >     <!-- correo -->
+                <input type="text" placeholder="Telefono" name="telefono" >
+                <input type="submit" value="Agregar" class="boton" name="add">
+            </form>
+        </section>
+
+        <section class="tabla">
+            <table class="prueba">
+                <tr >
+                    <th >ID</th>
+                    <th>Nombre</th>
+                    <th>Direccion</th>
+                    <th>Telefono</th>
+                    <th>correo</th>
+                    <th>Acciones</th>
+                </tr>
+            </table>
+        </section>
+
+
+    </main>
+</body>
