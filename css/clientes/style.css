@@ -12,7 +12,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-image: url(/img/fondo.jpg);
+    background-image: url(../../img/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -107,9 +107,13 @@ input {
 
 /*inicio de la tabla*/
 
-table {
+
+
+table {   /*tabla*/
     border: 2px solid black;
 }
+
+
 
 td, th {
     text-align: center;
