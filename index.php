@@ -13,8 +13,8 @@
         <p>lociones angel</p>
     </header>
     <nav>
-        <a href="./index.html" class="pagina">Inicio</a>
-        <a href="./clientes.html">Clientes</a>
+        <a href="./index.php" class="pagina">Inicio</a>
+        <a href="./clientes.php">Clientes</a>
         <a href="">Productos</a>
         <a href="">Proveedores</a>
     </nav>
@@ -25,7 +25,7 @@
         <div class="targeta">
             <h3>Clientes</h3>
             <img src="./img/clientes.png" alt="">
-            <a href="./clientes.html"><div>Ir</div></a>
+            <a href="./clientes.php"><div>Ir</div></a>
         </div>
         <div class="targeta">
             <h3>Productos</h3>
