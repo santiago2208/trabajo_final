@@ -43,7 +43,7 @@ if (isset($_POST['guardar'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="../../css/clientes/actualizar/phonee.css">
+    <link rel="stylesheet" href="../../css/actualizarr.css">
 </head>
 <body>
     <header>
