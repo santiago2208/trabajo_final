@@ -85,6 +85,9 @@ form {
     justify-content: center;
     flex-direction: column;
     padding: 15px 20px;
+    background-color: rgba(220, 196, 167, 0.767);
+    border-radius: 5px;
+    height: 100%;
 }
 
 h3 {
