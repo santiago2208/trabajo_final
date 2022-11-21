@@ -10,7 +10,7 @@
 
         $create = "INSERT INTO clientes (nombre, documento, correo, direccion, telefono) VALUES ('$name', '$document', '$email', '$address', '$phone')";
         if (mysqli_query($connection,$create)){
-            header('Location: ../../../clientes.php');
+            header('Location: ../../clientes.php');
         }
     }
 

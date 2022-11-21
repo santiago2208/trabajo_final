@@ -15,7 +15,7 @@
     <nav>
         <a href="./index.php" class="pagina">Inicio</a>
         <a href="./clientes.php">Clientes</a>
-        <a href="">Productos</a>
+        <a href="./productos.php">Productos</a>
         <a href="">Proveedores</a>
     </nav>
 
