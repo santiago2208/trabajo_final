@@ -10,7 +10,7 @@
 <body>
     <header>
         <img src="./img/locion.png" alt="">
-        <p>lociones angel</p>
+        <p>lociones angelica</p>
     </header>
     <nav>
         <a href="./index.php" class="pagina">Inicio</a>
