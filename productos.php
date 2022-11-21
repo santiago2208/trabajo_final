@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="./css/clientes/styles.css">
+    <link rel="stylesheet" href="./css/clientes/styless.css">
 </head>
 <body>
     <header>
@@ -14,9 +14,9 @@
     </header>
     <nav>
         <a href="./index.php">Inicio</a>
-        <a href="./clientes.php" class="pagina">Clientes</a>
-        <a href="./productos.php">Productos</a>
-        <a href="">Proveedores</a>
+        <a href="./clientes.php">Clientes</a>
+        <a href="./productos.php" class="pagina">Productos</a>
+        <a href="./proveedores.php">Proveedores</a>
     </nav>
 
     <h2>Productos</h2>
@@ -24,7 +24,7 @@
     <main>
 
         <section class="formulario">
-            <form id="formulario" method="post"  name="form" action="./php/productos/create_clientes.php">
+            <form id="formulario" method="post"  name="form" action="./php/productos/create_productos.php">
                 <input type="text" placeholder="Referencia" name="referencia">
                 <input type="text" placeholder="Cantidad" name="cantidad"> 
                 <input type="text" placeholder="Valor" name="valor" >   

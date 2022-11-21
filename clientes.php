@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="./css/clientes/styles.css">
+    <link rel="stylesheet" href="./css/clientes/styless.css">
 </head>
 <body>
     <header>
@@ -16,7 +16,7 @@
         <a href="./index.php">Inicio</a>
         <a href="./clientes.php" class="pagina">Clientes</a>
         <a href="./productos.php">Productos</a>
-        <a href="">Proveedores</a>
+        <a href="./proveedores.php">Proveedores</a>
     </nav>
 
     <h2>Clientes</h2>

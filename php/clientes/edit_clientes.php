@@ -38,7 +38,7 @@ if (isset($_POST['guardar'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="../../css/clientes/actualizar/phone.css">
+    <link rel="stylesheet" href="../../css/clientes/actualizar/phonee.css">
 </head>
 <body>
     <header>
@@ -46,10 +46,10 @@ if (isset($_POST['guardar'])) {
         <p>lociones angel</p>
     </header>
     <nav>
-        <a href="./index.php">Inicio</a>
-        <a href="./clientes.php" class="pagina">Clientes</a>
-        <a href="">Productos</a>
-        <a href="">Proveedores</a>
+        <a href="../../index.php">Inicio</a>
+        <a href="../../clientes.php" class="pagina">Clientes</a>
+        <a href="../../productos.php">Productos</a>
+        <a href="../../proveedores.php">Proveedores</a>
     </nav>
 
     <h2>Clientes</h2>
@@ -58,7 +58,6 @@ if (isset($_POST['guardar'])) {
         <div class="cont_principal">
             <form name="form" action="edit_clientes.php?id=<?= $_GET['id'] ?>" method="post">
                 <h3>Actualizar</h3>
-                <?php echo $id; ?>
                 <div class="input_item">
                     <label>Nombre</label>
                     <input type="text" name="nombre" value="<?php echo $name; ?>" >

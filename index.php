@@ -16,7 +16,7 @@
         <a href="./index.php" class="pagina">Inicio</a>
         <a href="./clientes.php">Clientes</a>
         <a href="./productos.php">Productos</a>
-        <a href="">Proveedores</a>
+        <a href="./proveedores.php">Proveedores</a>
     </nav>
 
   
