@@ -11,12 +11,20 @@
     <main>
 
         <section class="formulario">
-            <form id="formulario" method="post"  name="form" action="./php/productos/create_productos.php">
-                <input type="text" placeholder="Referencia" name="referencia">
-                <input type="text" placeholder="Cantidad" name="cantidad"> 
-                <input type="text" placeholder="Valor" name="valor" >   
-                <input type="text" placeholder="Nombre" name="nombre" >     
-                <input type="submit" value="Agregar" class="boton" name="add">
+            <form id="formulario" method="post"  name="form" action="./php/productos/create_productos.php" id="formulario">
+                
+                <p id="referencia_alert"></p>
+                <input type="text" id="referencia" placeholder="Referencia" name="referencia" required>
+                
+                <p id="cantidad_alert"></p>
+                <input type="text" id="cantidad" placeholder="Cantidad" name="cantidad" required> 
+                
+                <p id="valor_alert"></p>
+                <input type="text" id="valor" placeholder="Valor" name="valor" required>   
+                
+                <p id="nombre_alert"></p>
+                <input type="text" id="nombre" placeholder="Nombre" name="nombre" required>     
+                <input type="submit" value="Agregar" class="boton" name="add" required>
             </form>
         </section>
 
@@ -24,7 +32,7 @@
             <table class="prueba">
                 <tr >
                     <th>Referencia</th>
-                    <th>Cantidd</th>    
+                    <th>Cantidad</th>    
                     <th>Valor</th>
                     <th>Nombre</th>
                     <th>acciones</th>
@@ -56,4 +64,6 @@
 
 
     </main>
+
+    <script src="./js/productos.js"></script>
 </body>

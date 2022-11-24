@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styless.css">
 </head>
 <body>
     <header>
@@ -39,7 +39,16 @@
         </div>
     </main>
 
-   
+   <footer>
+    <section>
+    <div>integrantes del grupo</div>
+    <div class="foot_text">
+        <p>santiago alvarez porras</p>
+        <p>Brayhan Alexander Benitez Ibarguen</p>
+    </div>
+    </section>
+    
+   </footer>
 
 </body>
 </html>

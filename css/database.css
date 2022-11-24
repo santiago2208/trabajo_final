@@ -86,6 +86,7 @@ h2 {
     max-width: 400px;
     background-color: rgba(220, 196, 167, 0.767);
     border-radius: 5px;
+    height: 100%;
 }
 
 .formulario:hover {
@@ -96,6 +97,12 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
+}
+
+form p{
+    color: rgb(115, 5, 5);
+    font-size: 19px;
+    font-weight: bold;
 }
 
 input {
@@ -121,6 +128,20 @@ input:hover {
     box-shadow: 0px 0px 10px rgb(236, 229, 229);
     color: rgb(24, 23, 23);
 }
+
+
+.correcto{
+background-color: green;
+}
+
+.incorrecto{
+background-color:rgba(247, 17, 17, 0.89);
+}
+
+
+
+
+
 
 /*fin del formulario*/
 

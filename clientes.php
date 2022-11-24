@@ -12,11 +12,22 @@
 
         <section class="formulario">
             <form id="formulario" method="post"  name="form" action="./php/clientes/create_clientes.php">
-                <input type="text" placeholder="Nombre" name="nombre">
-                <input type="text" placeholder="Documento" name="documento"> <!-- documento -->
-                <input type="text" placeholder="Correo" name="correo" >   
-                <input type="text" placeholder="Direccion" name="direccion" >     
-                <input type="text" placeholder="Telefono" name="telefono" >
+
+                <p id="nom_alert"></p>
+                <input type="text" placeholder="Nombre" name="nombre" id="nombre" required>
+
+                <p id="documento_alert"></p>
+                <input type="text" placeholder="Documento" name="documento" id="documento" required>
+
+                <p id="email_alert"></p>
+                <input type="email" placeholder="Correo" name="correo" id="correo" required>  
+                
+                <p id="direccion_alert"></p>
+                <input type="text" placeholder="Direccion" name="direccion" id="direccion" required>
+
+                <p id="telefono_alert"></p>
+                <input type="text" placeholder="Telefono" name="telefono" id="telefono" required>
+
                 <input type="submit" value="Agregar" class="boton" name="add">
             </form>
         </section>
@@ -59,4 +70,7 @@
 
 
     </main>
+
+
 </body>
+<script src="./js/clientes.js"></script>

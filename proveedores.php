@@ -11,14 +11,28 @@
     <main>
 
         <section class="formulario">
-            <form id="formulario" method="post"  name="form" action="./php/proveedores/create_proveedores.php">
-                <input type="text" placeholder="Nombre" name="nombre_p">
-                <input type="text" placeholder="Direccion" name="direccion_p"> 
-                <input type="text" placeholder="Telefono" name="telefono_p" >   
-                <input type="text" placeholder="Nit" name="nit_p" > 
-                <input type="text" placeholder="Correo" name="correo_p" >     
-                <input type="text" placeholder="Producto" name="producto_p" > 
-                <input type="text" placeholder="Descripcion" name="descripcion_p" > 
+            <form id="formulario" method="post"  name="form" action="./php/proveedores/create_proveedores.php" id="formulario">
+                <p id="nombre_alert"></p>    
+                <input type="text" placeholder="Nombre" name="nombre_p" id="nombre" >
+
+                <p id="direccion_alert"></p>
+                <input type="text" placeholder="Direccion" name="direccion_p" id="direccion" > 
+
+                <p id="telefono_alert"></p>
+                <input type="text" placeholder="Telefono" name="telefono_p" id="telefono" >   
+
+                <p id="nit_alert"></p>
+                <input type="text" placeholder="Nit" name="nit_p" id="nit" > 
+
+                <p id="email_alert"></p>
+                <input type="email" placeholder="Correo" name="correo_p" id="correo" >     
+
+                <p id="producto_alert"></p>
+                <input type="text" placeholder="Producto" name="producto_p" id="producto" > 
+
+                <p id="descripcion_alert"></p>
+                <input type="textarea" placeholder="Descripcion" name="descripcion_p" id="descripcion" > 
+
                 <input type="submit" value="Agregar" class="boton" name="add">
             </form>
         </section>
@@ -65,4 +79,6 @@
 
 
     </main>
+
+    <script src="./js/proveedores.js"></script>
 </body>

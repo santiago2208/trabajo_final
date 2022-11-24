@@ -90,6 +90,16 @@ form {
     height: 100%;
 }
 
+form span{
+    color: rgb(115, 5, 5);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+form:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
 h3 {
     text-align: center;
 }
@@ -104,6 +114,31 @@ h3 {
 input {
     height: 25px;
 }
+
+.boton {
+    background-color: rgba(13, 148, 13, 0.999);
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    border: solid 1px black;
+    height: 30px;
+}
+
+.boton:hover {
+    background-color: rgb(24, 198, 24);
+    border: solid 2px rgb(61, 121, 51);
+    box-shadow: 0px 0px 10px rgb(236, 229, 229);
+    color: rgb(24, 23, 23);
+}
+
+.correcto{
+background-color: green;
+}
+
+.incorrecto{
+background-color:rgba(247, 17, 17, 0.89);
+}
+
 
 
 

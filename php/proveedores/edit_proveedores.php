@@ -43,7 +43,7 @@ if (isset($_POST['guardar'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="../../css/actualizarr.css">
+    <link rel="stylesheet" href="../../css/actualizar1.css">
 </head>
 <body>
     <header>
@@ -61,42 +61,43 @@ if (isset($_POST['guardar'])) {
 
 <main>
         <div class="cont_principal">
-            <form name="form" action="edit_proveedores.php?id=<?= $_GET['id'] ?>" method="post">
+            <form name="form" action="edit_proveedores.php?id=<?= $_GET['id'] ?>" method="post" id="formulario">
                 <h3>Actualizar</h3>
                 <div class="input_item">
-                    <label>Nombre</label>
-                    <input type="text" name="nombre_p" value="<?php echo $nombre_p; ?>" >
+                    <label>Nombre <span id="nombre_alert"></span> </label>
+                    <input type="text" name="nombre_p" value="<?php echo $nombre_p; ?>" id="nombre" >
                 </div>
                 <div class="input_item">
-                    <label>Direccion</label>
-                    <input type="text" name="direccion_p" value="<?php echo $direccion_p; ?>"> 
+                    <label>Direccion <span id="direccion_alert"></span> </label>
+                    <input type="text" name="direccion_p" value="<?php echo $direccion_p; ?>" id="direccion" > 
                 </div>
                 <div class="input_item">
-                    <label>Telefono</label>
-                    <input type="text" name="telefono_p" value="<?php echo $telefono_p; ?>" >  
+                    <label>Telefono <span id="telefono_alert"></span> </label>
+                    <input type="text" name="telefono_p" value="<?php echo $telefono_p; ?>" id="telefono" >  
                 </div>
                 <div class="input_item">
-                    <label>Nit</label>
-                    <input type="text" name="nit_p" value="<?php echo $nit_p; ?>">
+                    <label>Nit <span id="nit_alert"></span> </label>
+                    <input type="text" name="nit_p" value="<?php echo $nit_p; ?>" id="nit" >
                 </div>
                 <div class="input_item">
-                    <label>Correo</label>
-                    <input type="text" name="correo_p" value="<?php echo $correo_p; ?>">
+                    <label>Correo <span id="email_alert"></span> </label>
+                    <input type="email" name="correo_p" value="<?php echo $correo_p; ?>" id="correo" >
                 </div>
                 <div class="input_item">
-                    <label>Producto</label>
-                    <input type="text" name="producto_p" value="<?php echo $producto_p; ?>">
+                    <label>Producto <span id="producto_alert"></span> </label>
+                    <input type="text" name="producto_p" value="<?php echo $producto_p; ?>" id="producto" >
                 </div>
                 <div class="input_item">
-                    <label>Descripcion</label>
-                    <input type="text" name="descripcion_p" value="<?php echo $descripcion_p; ?>">
+                    <label>Descripcion <span id="descripcion_alert"></span> </label>
+                    <input type="textarea" name="descripcion_p" value="<?php echo $descripcion_p; ?>" id="descripcion" >
                 </div>
                 <div class="input_item">
-                    <button name="guardar">Editar</button>
+                    <button name="guardar" class="boton">Editar</button>
                 </div>
             </form>
         </div>
     </main>
 
+<script src="../../js/proveedores.js"></script>
 </body>
 

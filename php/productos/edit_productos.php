@@ -37,7 +37,7 @@ if (isset($_POST['guardar'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lociones angelica</title>
-    <link rel="stylesheet" href="../../css/actualizarr.css">
+    <link rel="stylesheet" href="../../css/actualizar1.css">
 </head>
 <body>
     <header>
@@ -55,30 +55,31 @@ if (isset($_POST['guardar'])) {
 
 <main>
         <div class="cont_principal">
-            <form name="form" action="edit_productos.php?id=<?= $_GET['id'] ?>" method="post">
+            <form name="form" id="formulario" action="edit_productos.php?id=<?= $_GET['id'] ?>" method="post">
                 <h3>Actualizar</h3>
                 <div class="input_item">
-                    <label>Referencia</label>
-                    <input type="text" name="referencia" value="<?php echo $referencia; ?>" >
+                    <label>Referencia <span id="referencia_alert"></span></label>
+                    <input type="text" id="referencia" name="referencia" value="<?php echo $referencia; ?>" required>
                 </div>
                 <div class="input_item">
-                    <label>Cantidad</label>
-                    <input type="text" name="cantidad" value="<?php echo $cantidad; ?>"> 
+                    <label>Cantidad <span id="cantidad_alert"></span></label>
+                    <input type="text" name="cantidad" value="<?php echo $cantidad; ?>" id="cantidad" required> 
                 </div>
                 <div class="input_item">
-                    <label>Valor</label>
-                    <input type="text" name="valor" value="<?php echo $valor; ?>" >  
+                    <label>Valor <span id="valor_alert"></span></label>
+                    <input type="text" name="valor" value="<?php echo $valor; ?>" id="valor" required>  
                 </div>
                 <div class="input_item">
-                    <label>Nombre</label>
-                    <input type="text" name="nombre" value="<?php echo $nombre; ?>">
+                    <label>Nombre <span id="nombre_alert"></span></label>
+                    <input type="text" name="nombre" value="<?php echo $nombre; ?>" id="nombre" required>
                 </div>
                 <div class="input_item">
-                    <button name="guardar">Editar</button>
+                    <button name="guardar" class="boton">Editar</button>
                 </div>
             </form>
         </div>
     </main>
 
+    <script src="../../js/productos.js"></script>
 </body>
 
